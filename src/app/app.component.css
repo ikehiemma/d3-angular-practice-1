@@ -1,30 +1,45 @@
-#vizContainer {
-    height: 100vh;
-    width: 90%;
-}
 
-svg {
-    height: 90%;
-    width: 90%;
-}
 
 text {
-    font-size: 10px;
-    text-anchor: middle;
-    fill: #4f442b;
-  
-  }
-  g > text.active {
-    font-size: 30px;
-  }
-  circle {
-    fill: #75739F;
-    stroke: black;
-    stroke-width: 1px;
-  }
-  circle.active {
-    fill: #FE9922;
-  }
-  circle.inactive {
-    fill: #C4B9AC;
-  }
+  font-size: 10px;
+  text-anchor: middle;
+  fill: #4f442b;
+}
+g > text.active {
+  font-size: 30px;
+}
+circle {
+  fill: #75739f;
+  stroke: black;
+  stroke-width: 1px;
+}
+circle.active {
+  fill: #fe9922;
+}
+circle.inactive {
+  fill: #c4b9ac;
+}
+
+#infobox {
+  position: fixed;
+  left: 150px;
+  top: 20px;
+  z-index: 1;
+  background: white;
+  border: 1px black solid;
+  box-shadow: 10px 10px 5px #888888;
+}
+tr {
+  border: 1px gray solid;
+}
+td {
+  font-size: 10px;
+}
+td.data {
+  font-weight: 900;
+}
+
+path {
+  width: 10px;
+  height: 10px;
+}
